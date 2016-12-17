@@ -15,6 +15,9 @@
 		F9B314CA1E040635001EDD44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B314C81E040635001EDD44 /* LaunchScreen.storyboard */; };
 		F9B314D51E040635001EDD44 /* DataType_06_HomeWork_02Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B314D41E040635001EDD44 /* DataType_06_HomeWork_02Tests.m */; };
 		F9B314E01E040635001EDD44 /* DataType_06_HomeWork_02UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B314DF1E040635001EDD44 /* DataType_06_HomeWork_02UITests.m */; };
+		F9B314EF1E040A9A001EDD44 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B314EE1E040A9A001EDD44 /* Car.m */; };
+		F9B314F21E040B36001EDD44 /* PassengerAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B314F11E040B36001EDD44 /* PassengerAuto.m */; };
+		F9B314F51E040B58001EDD44 /* CargoAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B314F41E040B58001EDD44 /* CargoAuto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		F9B314DB1E040635001EDD44 /* DataType_06_HomeWork-02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DataType_06_HomeWork-02UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B314DF1E040635001EDD44 /* DataType_06_HomeWork_02UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataType_06_HomeWork_02UITests.m; sourceTree = "<group>"; };
 		F9B314E11E040635001EDD44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B314ED1E040A9A001EDD44 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		F9B314EE1E040A9A001EDD44 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		F9B314F01E040B36001EDD44 /* PassengerAuto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerAuto.h; sourceTree = "<group>"; };
+		F9B314F11E040B36001EDD44 /* PassengerAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerAuto.m; sourceTree = "<group>"; };
+		F9B314F31E040B58001EDD44 /* CargoAuto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CargoAuto.h; sourceTree = "<group>"; };
+		F9B314F41E040B58001EDD44 /* CargoAuto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CargoAuto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +112,12 @@
 			children = (
 				F9B314BD1E040635001EDD44 /* AppDelegate.h */,
 				F9B314BE1E040635001EDD44 /* AppDelegate.m */,
+				F9B314ED1E040A9A001EDD44 /* Car.h */,
+				F9B314EE1E040A9A001EDD44 /* Car.m */,
+				F9B314F01E040B36001EDD44 /* PassengerAuto.h */,
+				F9B314F11E040B36001EDD44 /* PassengerAuto.m */,
+				F9B314F31E040B58001EDD44 /* CargoAuto.h */,
+				F9B314F41E040B58001EDD44 /* CargoAuto.m */,
 				F9B314C01E040635001EDD44 /* ViewController.h */,
 				F9B314C11E040635001EDD44 /* ViewController.m */,
 				F9B314C31E040635001EDD44 /* Main.storyboard */,
@@ -274,8 +289,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9B314C21E040635001EDD44 /* ViewController.m in Sources */,
+				F9B314F21E040B36001EDD44 /* PassengerAuto.m in Sources */,
 				F9B314BF1E040635001EDD44 /* AppDelegate.m in Sources */,
+				F9B314EF1E040A9A001EDD44 /* Car.m in Sources */,
 				F9B314BC1E040635001EDD44 /* main.m in Sources */,
+				F9B314F51E040B58001EDD44 /* CargoAuto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
